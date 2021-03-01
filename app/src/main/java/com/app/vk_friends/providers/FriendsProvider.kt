@@ -1,4 +1,9 @@
 package com.app.vk_friends.providers
 
-class FriendsProvider {
+import com.app.vk_friends.presenters.FriendsPresenter
+
+class FriendsProvider(var presenter: FriendsPresenter) {
+    fun testLoadFriends() {
+
+    }
 }
